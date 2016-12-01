@@ -32,3 +32,19 @@ const homeComponent = new Vue({
   }
 });
 ```
+
+
+## Advanced
+
+### string-bundle.json
+``` bash
+{
+  "modules": [
+    {
+      "input": "path/to/template.html",
+      "output": "path/to/output.js"
+    }
+  ]
+}
+```
+Then simply: `string-bundle` will compile all files listed in the "modules" section of the string-bundle.json file.
