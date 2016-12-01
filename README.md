@@ -1,4 +1,4 @@
-## string-bundle
+# string-bundle
 
 `sudo npm install string-bundle -g`
 
@@ -10,7 +10,7 @@ String-bundle is intended to be used as a straightforward way of using html temp
 
 Using string-bundle with Vue.js:
 
-# home.html
+### home.html
 ``` bash
 <div class="pageWrapper">
   <h1>Home</h1>
@@ -22,7 +22,7 @@ Then create a blank JavaScript file: home.js.
 
 `string-bundle home.html home.js`
 
-# index.js
+### index.js
 `const home = require('path/to/home.js');`
 
 ``` bash
