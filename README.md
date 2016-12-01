@@ -23,7 +23,7 @@ Then create a blank JavaScript file: home.js.
 `string-bundle home.html home.js`
 
 # index.js
-`const home = require('home');`
+`const home = require('path/to/home.js');`
 
 ``` bash
 const homeComponent = new Vue({
