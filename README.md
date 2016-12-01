@@ -1,8 +1,10 @@
 ## string-bundle
 
+`sudo npm install string-bundle -g`
+
 `string-bundle template.html output.js`
 
-string-bundle takes an html file and renders it into a javascript file for exporting as a template.
+string-bundle takes an html file and renders it into a JavaScript file for exporting as a string template.
 The format of the output is:
 
 `
@@ -20,4 +22,4 @@ module.exports=function(){
 '</html>' ;
 };
 `
-I created this in an attempt to provide a straightforward way of using html template files for various JavaScript frameworks and libraries with a simple-to-use tool.
+I created this in an attempt to provide a straightforward way of using html template files for various JavaScript frameworks (like Vue.js) and libraries with a simple-to-use tool.

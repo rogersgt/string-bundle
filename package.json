@@ -1,6 +1,6 @@
 {
-  "name": "vue-temp",
-  "version": "1.0.0",
+  "name": "string-bundle",
+  "version": "1.0.3",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
