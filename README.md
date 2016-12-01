@@ -28,6 +28,9 @@ Then create a blank JavaScript file: home.js.
 ``` bash
 const homeComponent = new Vue({
   el: '#app',
-  template: home
+  template: home,
+  data: {
+    message: 'hello string-bundle'
+  }
 });
 ```
