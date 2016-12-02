@@ -1,6 +1,6 @@
 # string-bundle
 
-string-bundle takes an html file and renders it into a JavaScript file for exporting as a string template. String-bundle is intended to be used as a straightforward way of using html template files for various JavaScript frameworks (like Vue.js) and libraries with a simple-to-use tool.
+String-bundle takes an html file and renders it into a JavaScript file for exporting as a string template. String-bundle is intended to be used as a straightforward way of using html template files for JavaScript partial DOM rendering.
 
 `sudo npm install string-bundle -g`
 
