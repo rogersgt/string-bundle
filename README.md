@@ -6,34 +6,6 @@ string-bundle takes an html file and renders it into a JavaScript file for expor
 
 `string-bundle template.html output.js`
 
-Using string-bundle with Vue.js:
-
-### home.html
-``` bash
-<div class="pageWrapper">
-  <h1>Home</h1>
-  <h3>{{message}}</h3>
-</div>
-```
-
-Then create a blank JavaScript file: home.js.
-
-`string-bundle home.html home.js`
-
-### index.js
-`const home = require('path/to/home.js');`
-
-``` bash
-const homeComponent = new Vue({
-  el: '#app',
-  template: home,
-  data: {
-    message: 'hello string-bundle'
-  }
-});
-```
-
-
 ## Advanced
 
 ### string-bundle.json
